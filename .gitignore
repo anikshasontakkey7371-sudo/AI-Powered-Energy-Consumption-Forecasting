@@ -1,0 +1,95 @@
+# ==============================================================================
+# AI-Powered Energy Consumption Forecasting - Git Ignore Configuration
+# ==============================================================================
+
+# 1. Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 2. Virtual Environments
+.venv/
+.venv*/
+venv/
+venv*/
+ENV/
+env/
+env*/
+
+# 3. Distribution / Packaging / Builds
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 4. Testing, Caching & Code Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# 5. Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 6. IDE, Text Editor & Workspace Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# 7. Operating System Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# 8. Local Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+
+# 9. Secrets, Environment Variables & Credentials (Strictly Excluded)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.secret
+credentials.json
+secrets.json
+
+# 10. Temporary & Backup Files
+*.tmp
+*.temp
+*.bak

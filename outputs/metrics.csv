@@ -1,0 +1,3 @@
+model_name,mae,rmse,r2_score,unit,sample_size
+Naive Baseline (Previous Hour),3.984,5.036,0.7583,MWh,1719
+RandomForestRegressor,2.729,3.454,0.8863,MWh,1719
